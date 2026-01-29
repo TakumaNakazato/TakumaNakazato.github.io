@@ -3,11 +3,6 @@ body {
 	text-align: center;
 	display: block;
 	
- }/* 全体を中央揃え */
-body {
-	text-align: center;
-	display: block;
-	
  }
  img {
 	border: solid 1px #777777; /* 色：グレー */
@@ -25,10 +20,10 @@ body {
 header {
 	padding:40px;
 	background-image: url(../header.png);
-	height: 80px;
+	height: 40px;
 	background-size:cover;
 	background-position: 50% 50%;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 
  }
 
@@ -104,100 +99,6 @@ main {
 /*フォント*/
 body {
 font-family:font-family: 'Noto Sans JP', sans-serif;
-color:#262626;
-line-height:25px;
-font-size:0.95em;
-}
- img {
-	border: solid 1px #777777; /* 色：グレー */
-  }
-.sample {
-	text-align: center;
-	display: block;
-	
-}
-.sample .text {
-	text-align: left;
-	display: inline-block;
-}
-.img-box {
-width:50%;
-margin:0 auto;
-}
-/* ヘッダ背景 */
-header {
-	padding:10px;
-	background-image: url(../header.png);
-	height: 400px;
-	background-size:cover;
-	background-position: 50% 50%;
-	margin-bottom: 20px;
- }
-/* ヘッダ装飾 */
-header {
- text-align: center;
- }
-header img {
-	border-radius: 50%;
- }
-header h1 {
- color: #FFFFFF;
- text-shadow: 1px 2px 3px #696969;
- font-size: 64px;
- }
-header p {
- font-size:18px;
- padding : 10px ;
- background-color:#0067C0;
- color:#FFFFFF;
- }
-/* リンクメニュー部 */
- nav{
- text-align: center;
- margin-bottom: 40px;
- }
- nav ul{
- margin: 0 ;
- padding: 0 ;
- }
- nav ul li{
- list-style: none;
- display: inline-block;
- width: 18%;
- min-width: 90px;
- }
- nav ul li a{
- text-decoration: none;
- color: #262626;
- }
-  nav ul li a:hover{
- color: #E7DA66;
- }
-/* メインコンテンツ余白 */
-main {
- margin-bottom:px;
- }
-/* ボタン */
-.button {
- text-decoration: none;
- background-color: #465DAA;
- border-radius: 50px;
- color:#FFFFFF;
- padding: 3px 10px;
-}
-/*テーブル*/
- th,td{
-	border:1px #333 solid;
-	padding:8px 16px;
- }
- table{
-	margin:auto;
-	border-collapse:collapse;
- }
-
-/*フォント*/
-body {
-font-family:"メイリオ", Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 color:#262626;
 line-height:25px;
 font-size:0.95em;
